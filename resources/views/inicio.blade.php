@@ -37,8 +37,6 @@
         </nav>
         <!-- Masthead-->
         <header class="masthead">
-            <img src="./assets/img/heliconias.jpg" alt="">
-            <p>
             <div class="container">
                 <div class="masthead-subheading">Bienvenido al Hotel las Heliconias!</div>
                 <div class="masthead-heading text-uppercase">Encantado de Conocerte</div>
@@ -54,10 +52,8 @@
                 </div>
                 <div class="row text-center">
                     <div class="col-md-4">
-                        
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
-                        </span>
+                        <i class="fa fa-circle-o-notch fa-spin fa-5x fa-fw"></i>
+                        <span class="sr-only">Loading...</span>
                         <h4 class="my-3">E-Commerce</h4>
                         <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                     </div>
