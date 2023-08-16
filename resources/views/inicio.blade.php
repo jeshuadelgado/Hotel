@@ -15,6 +15,9 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="{{asset('css/styles.css')}}" rel="stylesheet" />
+        <style>
+
+        </style>
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -27,10 +30,10 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                        <li class="nav-item"><a style="color: white" class="nav-link" href="#portfolio">Portfolio</a></li>
+                        <li class="nav-item"><a style="color: white" class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a style="color: white" class="nav-link" href="#team">Team</a></li>
+                        <li class="nav-item"><a style="color: white" class="nav-link" href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -38,8 +41,8 @@
         <!-- Masthead-->
         <header class="masthead">
             <div class="container">
-                <div class="masthead-subheading">Bienvenido al Hotel las Heliconias!</div>
-                <div class="masthead-heading text-uppercase">Encantado de Conocerte</div>
+                <div style="color: white" class="masthead-subheading">Bienvenido al Hotel las Heliconias!</div>
+                <div style="color: white" class="masthead-heading text-uppercase">Encantado de Conocerte</div>
                 <a class="btn btn-primary btn-xl text-uppercase" href="#services">DIME MÁS</a>
             </div>
         </header>
@@ -52,8 +55,8 @@
                 </div>
                 <div class="row text-center">
                     <div class="col-md-4">
-                        <i class="fa fa-circle-o-notch fa-spin fa-5x fa-fw"></i>
-                        <span class="sr-only">Loading...</span>
+                            <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+                            <span class="sr-only">Loading...</span>
                         <h4 class="my-3">E-Commerce</h4>
                         <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                     </div>
