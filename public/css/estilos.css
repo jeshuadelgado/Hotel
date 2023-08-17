@@ -10931,10 +10931,14 @@ p {
     margin-right: 0;
   }
 }
-header.masthead {
+.masthead {
+margin-top: -8%;
 background-color: black;
 background-size: cover;
 text-align: center;
+}
+.container-a{
+  margin-bottom: -5%;
 }
 header.masthead .masthead-subheading {
   font-size: 1.5rem;

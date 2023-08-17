@@ -7,14 +7,14 @@
         <meta name="author" content="" />
         <title>Hotel las Heliconias</title>
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/hotel.png" />
+        <link rel="icon" type="image/x-icon" href="./assets/hotelh.png" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="{{asset('css/styles.css')}}" rel="stylesheet" />
+        <link href="{{asset('css/estilos.css')}}" rel="stylesheet" />
         <style>
 
         </style>
@@ -40,9 +40,13 @@
         </nav>
         <!-- Masthead-->
         <header class="masthead">
-            <div class="container">
-                <div style="color: white" class="masthead-subheading">Bienvenido al Hotel las Heliconias!</div>
-                <div style="color: white" class="masthead-heading text-uppercase">Encantado de Conocerte</div>
+            <div class="container-a">
+                <div style="color: rgb(255, 255, 255)" class="masthead-subheading">Bienvenido al Hotel las Heliconias!</div>
+                <div style="color: white" class="masthead-heading text-uppercase">Encantado de Conocerte</div> 
+                <img src="./assets/img/heliconias.jpg" alt="">
+                <p>
+                    
+                </p>
                 <a class="btn btn-primary btn-xl text-uppercase" href="#services">DIME MÁS</a>
             </div>
         </header>
