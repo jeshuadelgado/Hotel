@@ -14,7 +14,7 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="{{asset('css/estilosi.css')}}" rel="stylesheet" />
+        <link href="{{asset('css/estilo.css')}}" rel="stylesheet" />
         <style>
 
         </style>
@@ -34,6 +34,7 @@
                         <li class="nav-item"><a style="color: white" class="nav-link" href="#portfolio">Portafolio</a></li>
                         <li class="nav-item"><a style="color: white" class="nav-link" href="#team">Tarifas y Precios</a></li>
                         <li class="nav-item"><a style="color: white" class="nav-link" href="#contact">Contacto</a></li>
+                        <li class="nav-item"><a style="color: white" class="nav-link" href="{{Route ('iniciar') }}">Inicio de Sesion</a></li>
                     </ul>
                 </div>
             </div>
