@@ -126,11 +126,12 @@ h2, .h2 {
 }
 
 h3, .h3 {
-  font-size: calc(1.3rem + 0.6vw);
+  font-size: calc(1.0rem + 0.6vw);
+  color: white;
 }
 @media (min-width: 1200px) {
   h3, .h3 {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -1263,7 +1264,8 @@ progress {
   }
   .col-lg-4 {
     flex: 0 0 auto;
-    width: 33.33333333%;
+    width: 33.33333%;
+    text-align: center;
   }
   .col-lg-5 {
     flex: 0 0 auto;
@@ -1296,6 +1298,11 @@ progress {
   .col-lg-12 {
     flex: 0 0 auto;
     width: 100%;
+  }
+  .col-lg-18 {
+    
+    width: 100%;
+    text-align: center;
   }
   .offset-lg-0 {
     margin-left: 0;
@@ -8072,6 +8079,7 @@ textarea.form-control-lg {
 .text-muted {
   --bs-text-opacity: 1;
   color: #6c757d !important;
+  font-size: 1.2rem;
 }
 
 .text-black-50 {
@@ -10826,7 +10834,7 @@ p {
   margin-bottom: 1rem;
 }
 .page-section h3.section-subheading, .page-section .section-subheading.h3 {
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 400;
   font-style: italic;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -10924,7 +10932,7 @@ p {
 }
 .masthead {
 margin-top: -8%;
-background-color: black;
+background-image: url(../assets/ondas.jpg);
 background-size: cover;
 text-align: center;
 }
@@ -10945,6 +10953,7 @@ header.masthead .masthead-heading {
   margin-bottom: 2rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
 @media (min-width: 768px) {
   header.masthead {
     padding-top: 17rem;
@@ -11219,9 +11228,9 @@ header.masthead .masthead-heading {
   text-align: center;
 }
 .team-member img {
-  width: 14rem;
-  height: 14rem;
-  border: 0.5rem solid rgba(0, 0, 0, 0.1);
+  width: 50rem;
+  height: 50rem;
+  border: 0.80rem solid rgba(0, 0, 0, 0.1);
 }
 .team-member h4, .team-member .h4 {
   margin-top: 1.5rem;
