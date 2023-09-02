@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('inicio');
+    return view('iniciarS');
 });
 
-Route::get('iniciarS/index','SesionController@index')->name('iniciar');
+Route::get('inicioS/index','SesionController@index')->name('iniciar');

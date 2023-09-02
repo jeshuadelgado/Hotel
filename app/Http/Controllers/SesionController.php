@@ -11,7 +11,7 @@ class SesionController extends Controller
      */
     public function index()
     {
-        return view('iniciosesion');
+        return view('iniciarS');
     }
 
     /**
